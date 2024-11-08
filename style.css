@@ -1,0 +1,150 @@
+*{
+  margin:  0px;
+  padding: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+  background-color: #52A2F4;
+  
+}
+#name{
+  text-align: center;
+  text-shadow: 2px 2px 5px white;
+  margin-top: 40px;
+ 
+}
+#login{
+  background-color: white;
+width: 300px;
+height: 400px;
+  margin:70px 0px 0px 30px;
+  text-align: center;
+  border-radius: 20px
+}
+h3{
+  padding: 20px;
+  font-size: 30px
+  
+  
+}
+hr{
+  height: 2px;
+  background-color:#E5E6EA;
+  border: none;
+}
+.hrt{
+  width:230px;
+  height: 2px;
+  margin-left: 35px;
+  background-color:#CCCCCC;
+  border: none;
+}
+
+
+.input{
+  padding-top: 40px;
+  border:none;
+  font-size: 16px;
+}
+
+#lg{
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #E3EDF4;
+  background-color: #52A2F4;
+  width: 230px;
+  border:none;
+  border-radius: 25px;
+  
+}
+#link{
+  display: flex;
+  margin:30px 0px 0px 70px;
+}
+#link a{
+  text-decoration: none;
+  color:#52A2F4;
+  font-weight: bold;
+  margin-left: 2px;
+}
+footer{
+  text-align: center;
+  margin-top: 100px;
+  color :white;
+  text-shadow: 2px 2px 5px black;
+}
+/*
+registration form
+*/
+
+.label{
+  margin-top: 15px;
+}
+form{
+  background-color: #FFFFFF;
+  margin: 30px 0px 0px 20px;
+  width: 320px;
+  border-radius: 15px;
+ 
+}
+table{
+  
+  margin-left: 25px;
+}
+
+#btn{
+  text-align:  center;
+}
+#btn button{
+ padding: 7px;
+  margin-top: 30px;
+  
+  font-weight: bold;
+  color: #E3EDF4;
+  background-color: #52A2F4;
+  width: 70px;
+  border:none;
+  border-radius: 7px;
+}
+#btn #red{
+    background-color: #FF2A2A;
+}
+#crt{
+  text-<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Login page</title>
+</head>
+
+<body>
+  
+<form action="action.php"><div id="login">
+  <h3>Login</h3>
+  <hr id="dlogin"/>
+  <input type="text" name="name" placeholder="Username" class="input">
+  <hr class="hrt">
+    <input type="password" name="password" placeholder="Password" class="input">
+    <hr class="hrt">
+    <button type="submit" id="lg">Login</button>
+<div id="link">  <p>Not a member ? </p>
+  <a href="registration.html"> Signup</a></div>
+</div></form>
+<footer>
+  Created By Himanshu Singh 
+</footer>
+</body>
+
+</html>: center;
+  margin-top: 30px;
+  color :black;
+  text-shadow: 2px 2px 5px black;
+}
